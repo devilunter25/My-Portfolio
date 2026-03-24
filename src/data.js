@@ -20,7 +20,7 @@ export const portfolioData = {
     },
     {
       title: "Frameworks & Libraries",
-      skills: ["NumPy", "Pandas", "Scikit-Learn", "TensorFlow", "Keras", "Matplotlib", "Seaborn"]
+      skills: ["NumPy", "Scikit-Learn", "TensorFlow", "Matplotlib"]
     },
     {
       title: "Tools & Platforms",
@@ -47,33 +47,6 @@ export const portfolioData = {
       date: "Jan '25",
       image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=600",
       tags: ["Linear Regression", "Flask/Streamlit", "Pandas"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Image Classification with CNNs",
-      description: "Implemented a Convolutional Neural Network using TensorFlow and Keras to classify images from the CIFAR-10 dataset, utilizing data augmentation and dropout layers to prevent overfitting.",
-      date: "Recent",
-      image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=600",
-      tags: ["Deep Learning", "CNN", "TensorFlow", "Keras"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Customer Segmentation using KMeans",
-      description: "Applied unsupervised learning (K-Means Clustering) to segment retail customers based on purchasing behavior. Utilized Seaborn and Matplotlib for insightful data visualizations.",
-      date: "Recent",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600",
-      tags: ["Clustering", "Machine Learning", "Data Analysis"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Stock Market Forecasting with LSTMs",
-      description: "Engineered a Long Short-Term Memory (LSTM) recurrent neural network to forecast stock prices based on historical daily metrics. Implemented data scaling, sequencing, and robust train-test splits.",
-      date: "Recent",
-      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=600",
-      tags: ["Deep Learning", "LSTM", "Time Series", "TensorFlow"],
       liveUrl: "#",
       githubUrl: "#"
     },

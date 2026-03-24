@@ -16,21 +16,21 @@ const categoryIconMap = {
 // Exact Brand or Semantic Icon mapping for individual skills
 const getSkillIcon = (skillName) => {
   const norm = skillName.toLowerCase();
-  
+
   // Languages
   if (norm === 'python') return <FaPython className="text-blue-400" size={16} />;
   if (norm === 'java') return <FaJava className="text-red-400" size={16} />;
   if (norm === 'c++') return <SiCplusplus className="text-blue-500" size={16} />;
   if (norm === 'c') return <SiC className="text-blue-600" size={16} />;
-  
+
   // Frameworks
   if (norm.includes('numpy')) return <SiNumpy className="text-blue-300" size={16} />;
-  if (norm.includes('pandas')) return <SiPandas className="text-purple-400" size={16} />;
+
   if (norm.includes('scikit')) return <SiScikitlearn className="text-orange-400" size={16} />;
   if (norm.includes('tensorflow')) return <SiTensorflow className="text-orange-500" size={16} />;
-  if (norm.includes('keras')) return <SiKeras className="text-red-500" size={16} />;
+
   if (norm.includes('matplotlib')) return <Activity className="text-green-400" size={16} />;
-  if (norm.includes('seaborn')) return <Globe className="text-blue-400" size={16} />; // Proxy
+
 
   // Tools
   if (norm.includes('jupyter')) return <SiJupyter className="text-orange-400" size={16} />;
@@ -80,10 +80,10 @@ const Skills = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-slate-200 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-cyan-400 group-hover:to-fuchsia-400 transition-all">{category.title}</h3>
               </div>
-              
+
               <div className="flex flex-wrap gap-3 mt-4">
                 {category.skills.map((skill, idx) => (
-                  <motion.span 
+                  <motion.span
                     whileHover={{ scale: 1.05, y: -2 }}
                     key={idx}
                     className="flex items-center gap-2 px-4 py-2 bg-slate-900/90 text-cyan-100 border border-slate-700 group-hover:border-slate-600 hover:!border-fuchsia-500 rounded-lg text-sm font-medium hover:text-white transition-all hover:shadow-[0_0_15px_rgba(217,70,239,0.3)] cursor-default"
