@@ -91,10 +91,22 @@ export const portfolioData = {
   ],
   education: [
     {
-      degree: "Bachelor of Technology in Computer Science",
-      institution: "Your University Name",
-      date: "2021 – 2025",
-      description: "Focused on core computer science subjects including Data Structures, Algorithms, Machine Learning, and Artificial Intelligence."
+      degree: "Bachelor of Technology",
+      institution: "Lovely Professional University Phagwara, Punjab",
+      date: "Aug '23 – Present",
+      description: "Computer Science and Engineering; CGPA: 6.5"
+    },
+    {
+      degree: "Intermediate",
+      institution: "St. Xavier's High School Senior Secondary Mapusa, Goa",
+      date: "Mar '21 – May '23",
+      description: "PCM; Percentage: 66.7%"
+    },
+    {
+      degree: "Matriculation",
+      institution: "G.S Amonkar Vidya Mandir Mapusa, Goa",
+      date: "Mar '19 – May '20",
+      description: "Percentage: 80%"
     }
   ],
   socials: [
