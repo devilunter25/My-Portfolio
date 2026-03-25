@@ -37,7 +37,7 @@ const Certifications = () => {
                 </div>
 
                 {/* Content Card */}
-                <div className="md:w-5/12 bg-slate-800/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:border-cyan-500/50 transition-all shadow-lg hover:shadow-[0_0_20px_rgba(217,70,239,0.15)] relative">
+                <a href={cert.url || '#'} target={cert.url && cert.url !== '#' ? "_blank" : "_self"} rel="noreferrer" className="block md:w-5/12 bg-slate-800/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:border-cyan-500/50 transition-all shadow-lg hover:shadow-[0_0_20px_rgba(217,70,239,0.15)] relative cursor-pointer group/card">
                     {/* Arrow pointing to timeline */}
                     <div className="hidden md:block absolute top-6 w-0 h-0 border-y-8 border-y-transparent md:group-odd:-right-4 md:group-odd:border-l-8 md:group-odd:border-l-slate-800 md:group-even:-left-4 md:group-even:border-r-8 md:group-even:border-r-slate-800 transition-colors group-hover:md:group-odd:border-l-cyan-500/50 group-hover:md:group-even:border-r-cyan-500/50"></div>
                     
@@ -46,11 +46,11 @@ const Certifications = () => {
                     </span>
                     <h3 className="text-xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors leading-snug">{cert.title}</h3>
                     
-                    <div className="flex items-center text-slate-400 text-sm font-medium">
-                       <ShieldCheck size={16} className="mr-2 text-slate-500" />
+                    <div className="flex items-center text-slate-400 text-sm font-medium hover:text-cyan-300">
+                       <ShieldCheck size={16} className="mr-2 text-slate-500 group-hover/card:text-cyan-400" />
                        {cert.issuer}
                     </div>
-                </div>
+                </a>
                 
                 {/* Empty space for alternating layout */}
                 <div className="hidden md:block md:w-5/12"></div>

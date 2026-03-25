@@ -65,24 +65,36 @@ export const portfolioData = {
       title: "Introduction to Linux System",
       issuer: "Cipher Schools (Edtech Company)",
       date: "Jun '23 – Jul '23",
-      description: "Completed hands-on training covering Linux commands, file systems, user management, and shell operations. Gained practical experience in system operations, process control, and basic networking (IP config). Worked with real Linux environments for monitoring, log analysis, and system troubleshooting."
+      description: "Completed hands-on training covering Linux commands, file systems, user management, and shell operations. Gained practical experience in system operations, process control, and basic networking (IP config). Worked with real Linux environments for monitoring, log analysis, and system troubleshooting.",
+      url: "/Red hat.pdf"
     }
   ],
   certifications: [
     {
-      title: "Computational Theory: Language Principle & Finite Automata Theory",
+      title: "ChatGPT Made Easy- Al Essentials for Beginners",
       issuer: "Infosys SpringBoard",
-      date: "Aug '25"
+      date: "Aug '25",
+      url: "/ChatGPT Made Easy- Al Essentials for Beginners.pdf"
     },
     {
       title: "Master Generative AI & Generative AI tools (ChatGPT & more)",
       issuer: "Infosys SpringBoard",
-      date: "Aug '25"
+      date: "Aug '25",
+      url: "/Master Generative AI & Generative AI tools (ChatGPT & more) .pdf"
     },
     {
       title: "Build Generative AI Apps and Solutions with No-Code Tools",
       issuer: "Infosys SpringBoard",
-      date: "Aug '25"
+      date: "Aug '25",
+      url: "/Build Generative AI Apps and Solutions with No-Code Tools.pdf"
+    }
+  ],
+  education: [
+    {
+      degree: "Bachelor of Technology in Computer Science",
+      institution: "Your University Name",
+      date: "2021 – 2025",
+      description: "Focused on core computer science subjects including Data Structures, Algorithms, Machine Learning, and Artificial Intelligence."
     }
   ],
   socials: [
